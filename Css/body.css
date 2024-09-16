@@ -1,0 +1,33 @@
+:root {
+    --main-color1 : #e91e63 ;
+    --font-color1: #fdfdfd;
+    --bgc-color1 : #171a1c ;
+    --sp-color1 : #262626 ;
+    --input-color1 : #292023 ;
+}
+
+.lite-mode {
+    --bgc-color1: #b3c2cc;
+    /* --bgc-color1: #075488; */
+    --font-color1 : #171a1c ;
+    --sp-color1 : #ccc ;
+    --input-color1 : #ccc ;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+html {
+
+    scroll-behavior: smooth;
+}
+
+.header .link-list ul li a.active-link{
+    color: var(--main-color1);
+}
+

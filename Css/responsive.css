@@ -1,0 +1,17 @@
+@media (max-width : 576px)
+{
+    .your-photo {
+        display: none;
+    }
+    .header .link-list ul {
+        display: none;
+    }
+    .header .icon img {
+        width: 40px;
+        height: 40px;
+    }
+    .buttons a  {
+        display: block;
+        width: fit-content;
+    }
+}

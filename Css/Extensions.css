@@ -1,0 +1,22 @@
+/* ! start up button */
+.up-button {
+    background-color: var(--main-color1);
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    z-index: 1111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--font-color1);
+    display: none;
+}
+
+/* ! end up button  */
