@@ -23,6 +23,7 @@
     display: flex; 
     justify-content: center; 
     margin-top: 50px !important ;
+    padding-bottom: 100px;
 }
 
 
@@ -158,6 +159,21 @@ transition: transform 0.5s;
         width: calc(90%);
         margin: 10px auto;
     }
+    .show-more {
+
+        display: flex;
+        justify-content: center;
+    }.show-more a {
+        padding: 10px 36px;
+        font-size: 10px;
+    }.footer-link-list h3 {
+        color: #fff;
+        font-size: 15px;
+    }.footer-link-list h3 a {
+        text-decoration: none;
+        color: #ddd;
+        font-size: 10px;
+    }
 }
 
 @media screen and (min-width : 568px) and (max-width :639px) {
@@ -166,6 +182,20 @@ transition: transform 0.5s;
     } .work-list .my-work {
         width: calc(90%);
         margin: 10px auto;
+    } .show-more {
+
+        display: flex;
+        justify-content: center;
+    }.show-more a {
+        padding: 10px 36px;
+        font-size: 10px;
+    }.footer-link-list h3 {
+        color: #fff;
+        font-size: 15px;
+    }.footer-link-list h3 a {
+        text-decoration: none;
+        color: #ddd;
+        font-size: 10px;
     }
     
 }
@@ -176,6 +206,20 @@ transition: transform 0.5s;
     } .work-list .my-work {
         width: calc(90%);
         margin: 10px auto;
+    } .show-more {
+
+        display: flex;
+        justify-content: center;
+    }.show-more a {
+        padding: 10px 36px;
+        font-size: 10px;
+    }.footer-link-list h3 {
+        color: #fff;
+        font-size: 15px;
+    }.footer-link-list h3 a {
+        text-decoration: none;
+        color: #ddd;
+        font-size: 10px;
     }
 }
 
@@ -185,12 +229,41 @@ transition: transform 0.5s;
     } .work-list .my-work {
         width: calc(90%);
         margin: 10px auto;
+    } .show-more {
+
+        display: flex;
+        justify-content: center;
+    }.show-more a {
+        padding: 10px 36px;
+        font-size: 10px;
+    }.footer-link-list h3 {
+        color: #fff;
+        font-size: 15px;
+    }.footer-link-list h3 a {
+        text-decoration: none;
+        color: #ddd;
+        font-size: 10px;
     }
 }
 
 @media screen and (min-width : 240px) and (max-width :319px) {
     .work-list {
         flex-direction: column;
+    }
+    .show-more {
+
+        display: flex;
+        justify-content: center;
+    }.show-more a {
+        padding: 10px 36px;
+        font-size: 10px;
+    }.footer-link-list h3 {
+        color: #fff;
+        font-size: 15px;
+    }.footer-link-list h3 a {
+        text-decoration: none;
+        color: #ddd;
+        font-size: 10px;
     }
 }
 
