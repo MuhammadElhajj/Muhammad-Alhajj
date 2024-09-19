@@ -1,6 +1,4 @@
 .service {
-    width: 100%;
-    height: 100vh;
     background-color: var(--bgc-color1);
 }
 
@@ -28,7 +26,6 @@ font-weight: 800;
 
 .service .list div {
 
-    height: 400px;
     background: var(--sp-color1);
     width: calc(80% / 3);
     border-radius: 10px;
@@ -93,3 +90,81 @@ padding: 0 20px;
 .service .list div a:hover {
     text-decoration: underline;
 }
+
+@media screen and (min-width : 990px) and (max-width :1536px) {
+    .bars {
+        display: none;
+    }
+  
+}
+
+@media screen and (min-width : 240px) and (max-width :989px) {
+
+.header .link-list {
+    display: none;
+}
+   
+}
+/* ! ................ */
+
+@media screen and (min-width : 1280px) and (max-width : 1536px) {
+    
+}
+
+@media screen and (min-width : 1024px) and (max-width : 1279px) {
+
+}
+
+@media screen and (min-width : 990px) and (max-width : 1023px) {
+
+}
+
+@media screen and (min-width : 769px) and (max-width : 989px) {
+   
+ 
+}
+
+@media screen and (min-width : 640px) and (max-width : 768px) {
+    .service .list {
+        flex-direction: column;
+    }
+   
+    .service .list div {
+        width: 90%;
+        margin: 20px auto; }
+}
+
+@media screen and (min-width : 568px) and (max-width :639px) {
+ 
+    .service .list {
+        flex-direction: column;
+    }    .service .list div {
+        width: 90%;
+        margin: 20px auto; }
+
+}
+
+@media screen and (min-width : 480px) and (max-width :567px) {
+    .service .list {
+        flex-direction: column;
+    } .service .list div {
+        width: 90%;
+        margin: 20px auto; }
+}
+
+@media screen and (min-width : 320px) and (max-width :479px) {
+    .service .list {
+        flex-direction: column;
+    } .service .list div {
+        width: 90%;
+        margin: 20px auto; }
+}
+
+@media screen and (min-width : 240px) and (max-width :319px) {
+    .service .list {
+        flex-direction: column;
+    } .service .list div {
+        width: 90%;
+        margin: 20px auto; }
+}
+
